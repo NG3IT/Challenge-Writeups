@@ -40,7 +40,7 @@
 
 2. What port is classified as Secure Transport for POP3?
 
-****
+**http://www.arin.net/**
 
 ---
 
@@ -48,4 +48,42 @@
 
 1. In the above screenshots, what is the URI of the blocked image?
 
+**https://i.imgur.com/LSWOtDI.png**
+
+2. In the above screenshots, what is the name of the PDF attachment?
+
+**Payment-updateid.pdf**
+
+3. In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?
+
+**Use this command as follow for decode the attachment encoded in base64 :**
+
+**base64 -d email2.txt > decode**
+
+**Finally, you just need to open the decode file with chrome are something else for open pdf file for get the flag.**
+
+---
+
+## Task 6
+
+1. What trusted entity is this email masquerading as?
+
 ****
+
+2. What is the sender's email?
+
+**support@teckbe.com**
+
+3. What is the subject line? 
+
+**Take the string in the subject section "=?UTF-8?B?T3JkZXIgUGxhY2VkIDogWW91ciBPcmRlciBJRCBPRDIzMjE2NTcwODkyOTEgUGxhY2VkIFN1Y2Nlc3NmdWxseQ==?="**
+
+**Now you need to delete the following substring at the original string "=?UTF-8?B?"**
+
+**Now you can process to decode with this following command :**
+
+**echo "T3JkZXIgUGxhY2VkIDogWW91ciBPcmRlciBJRCBPRDIzMjE2NTcwODkyOTEgUGxhY2VkIFN1Y2Nlc3NmdWxseQ==?=" | base64 -d**
+
+**Order Placed : Your Order ID OD2321657089291 Placed Successfully**
+
+4. What is the URL link for - CLICK HERE? (Enter the defanged URL)
