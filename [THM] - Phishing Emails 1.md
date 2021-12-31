@@ -78,9 +78,7 @@
 
 **Take the string in the subject section "=?UTF-8?B?T3JkZXIgUGxhY2VkIDogWW91ciBPcmRlciBJRCBPRDIzMjE2NTcwODkyOTEgUGxhY2VkIFN1Y2Nlc3NmdWxseQ==?="**
 
-**Now you need to delete the following substring at the original string "=?UTF-8?B?"**
-
-**Now you can process to decode with this following command :**
+**Now you need to delete the following substring at the original string "=?UTF-8?B?" and you can process to decode with this following command :**
 
 **echo "T3JkZXIgUGxhY2VkIDogWW91ciBPcmRlciBJRCBPRDIzMjE2NTcwODkyOTEgUGxhY2VkIFN1Y2Nlc3NmdWxseQ==?=" | base64 -d**
 
