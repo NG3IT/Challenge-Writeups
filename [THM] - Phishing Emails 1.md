@@ -91,3 +91,11 @@
 **This gives this result :**
 
 **hxxp://t[.]teckbe[.]com/p/?j3=EOowFcEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==**
+
+---
+
+## Task 7 
+
+1. What is BEC?
+
+**Business Email Compromise**
