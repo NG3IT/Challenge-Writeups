@@ -68,7 +68,7 @@
 
 1. What trusted entity is this email masquerading as?
 
-****
+**Open the email3's file with Thunderbird. You can see the answer on the from field : "Home depot"**
 
 2. What is the sender's email?
 
@@ -85,3 +85,9 @@
 **Order Placed : Your Order ID OD2321657089291 Placed Successfully**
 
 4. What is the URL link for - CLICK HERE? (Enter the defanged URL)
+
+**Copy the link associated with the "CLICK HERE" button and change http to hxxp and add [] near "."**
+
+**This gives this result :**
+
+**hxxp://t[.]teckbe[.]com/p/?j3=EOowFcEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==**
