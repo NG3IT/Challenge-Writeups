@@ -42,4 +42,30 @@
 
 3. Launch the AttackBox if you haven't already. After you ensure you have terminated the VM from Task 2, start the target machine for this task. On the AttackBox, run Nmap with the default scripts -sC against 10.10.208.46. You will notice that there is a service listening on port 53. What is its full version value?
 
-****
+**9.9.5-9+deb8u19-Debian**
+
+Another method :
+
+```bash
+$ dig -t txt -c chaos VERSION.BIND @<IP>
+```
+
+4. Based on its description, the script ssh2-enum-algos “reports the number of algorithms (for encryption, compression, etc.) that the target SSH2 server offers.” What is the name of the key exchange algorithms (kex_algorithms) that relies upon “sha1” and is supported by 10.10.208.46?
+
+**diffie-hellman-group14-sha1**
+
+---
+
+## Task 5
+
+1. Terminate the target machine of the previous task and start the target machine for this task. On the AttackBox terminal, issue the command scp pentester@10.10.72.10:/home/pentester/* . to download the Nmap reports in normal and grepable formats from the target virtual machine.
+
+```bash
+$ grep https scan*
+```
+
+**3**
+
+2. What is the IP address of the system listening on port 8089?
+
+**172.17.20.147**
