@@ -40,10 +40,22 @@
 
 **userenum**
 
-2.
+2. What notable account is discovered? (These should jump out at you)
 
-****
+**svc-admin**
 
-3.
+3. What is the other notable account is discovered? (These should jump out at you)
+
+**backup**
+
+---
+
+## Task 5
+
+1. We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
+
+**svc-admin**
+
+2. Looking at the Hashcat Examples Wiki page, what type of Kerberos hash did we retrieve from the KDC? (Specify the full name)
 
 ****
