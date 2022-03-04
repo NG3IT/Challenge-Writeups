@@ -88,4 +88,10 @@ $ curl https://www.exploit-db.com/exploits/47330 | grep -i CVE
 
 7. What is the CVE number for this exploit?
 
-****
+**CVE-2019-15107**
+
+---
+
+## Task 6
+
+1. 
