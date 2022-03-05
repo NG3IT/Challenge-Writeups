@@ -145,3 +145,7 @@ root
 4. What is the full path to this file?
 
 **/root/.ssh/id_rsa**
+
+---
+
+## Task 7
