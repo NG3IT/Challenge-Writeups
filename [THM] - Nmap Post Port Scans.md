@@ -1,4 +1,4 @@
-# TryHackMe - Nmap Post Port Scan
+# [THM] - Nmap Post Port Scans
 
 [Room link](https://tryhackme.com/room/nmap04)
 
