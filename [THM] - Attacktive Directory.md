@@ -1,4 +1,4 @@
-# TryHackMe - Attacktive Directory
+# [THM] - Attacktive Directory
 
 [Room link](https://tryhackme.com/room/attacktivedirectory)
 
