@@ -1,4 +1,4 @@
-# TryHackMe - Insekube
+# [THM] - Kubernetes
 
 [Room link](https://tryhackme.com/room/insekube)
 
