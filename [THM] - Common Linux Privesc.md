@@ -1,4 +1,4 @@
-# TryHackMe - Common Linux Privecs
+# [THM] - Common Linux Privesc
 
 [Room link](https://tryhackme.com/room/commonlinuxprivesc)
 
