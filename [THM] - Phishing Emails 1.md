@@ -1,4 +1,4 @@
-# TryHackMe - Phishing Emails 1
+# [THM] - Phishing Emails 1
 
 [Room link](https://tryhackme.com/room/phishingemails1tryoe)
 
