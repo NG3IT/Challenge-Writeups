@@ -1,4 +1,4 @@
-# TryHackMe - Wreath
+# [THM] - Wreath
 
 [Room link](https://tryhackme.com/room/wreath)
 
