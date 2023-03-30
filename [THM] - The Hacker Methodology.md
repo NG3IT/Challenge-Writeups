@@ -1,4 +1,4 @@
-# TryHackMe - The Hacker Methodology
+# [THM] - The Hacker Methodology
 
 [Room link](https://tryhackme.com/room/hackermethodology)
 
